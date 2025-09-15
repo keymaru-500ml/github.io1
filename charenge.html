@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="robots" content="noindex" />
+    <title>ケーキ屋さん</title>
+    <meta name="description" content="サイトの概要を記入">
+
+    <!-- Google fontsの読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/charenge.css">
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-logo">
+                <img src="./img/logo.svg" alt="">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a href="" class="header-nav-link">About</a></li>
+                    <!-- <li class="header-nav-item"><a href="" class="header-nav-link">Menu</a></li> -->
+                    <div class="menu-box">
+                        <li class="header-nav-item js-header-nav-item">Menu</li>
+                        <div class="header-nav-item-contents js-header-nav-item-contents">
+                            <p class="contents-menu"><a href="" class="contents-link">新発売</a></p>
+                            <p class="contents-menu"><a href="" class="contents-link">おすすめ</a></p>
+                            <p class="contents-menu"><a href="" class="contents-link">期間限定</a></p>
+                        </div>
+                    </div>
+                    <li class="header-nav-item"><a href="" class="header-nav-link">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="fv">
+        <picture class="fv-picture">
+            <source media="(min-width:768px)" srcset="./img/fv.png">
+            <img src="./img/sp/fv.png" alt="">
+        </picture>
+    </div>
+    <section class="about">
+        <div class="inner">
+            <h2 class="section-heading">
+                <span class="section-heading-main">About</span>
+                <span class="section-heading-sub">ー 当店について ー</span>
+            </h2>
+            <div class="about-contents">
+                <img src="./img/about.png" alt="">
+                <div class="about-text-contents">
+                    <p class="about-text">当店では、素材の持つ美味しさや風味を最大限に生かし、シンプルでありながらも、素材の良さを引き出すこだわりのスイーツを提供しています。</p>
+                    <p class="about-text">自然な味わいを大切にし、素材を感じさせるスイーツで、心に残るひとときをお過ごしください。</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu">
+        <div class="inner">
+            <h2 class="section-heading">
+                <span class="section-heading-main">Menu</span>
+                <span class="section-heading-sub">ー 今月のケーキ ー</span>
+            </h2>
+            <div class="menu-contents">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <div class="menu-img">
+                            <img src="./img/menu1.png" alt="">
+                        </div>
+                        <div class="menu-text-contents">
+                            <h3 class="menu-name">
+                                <span class="menu-name-main">ストロベリーケーキ</span>
+                                <span class="menu-name-sub">- Strawberry cake -</span>
+                            </h3>
+                            <p class="menu-text"># 旬のあまおうトッピング</p>
+                        </div>
+                        <!-- モーダル -->
+                        <div class="modal-overlay">
+                            <div class="modal-content">
+                                <img src="" alt="拡大表示">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-img">
+                            <img src="./img/menu2.png" alt="">
+                        </div>
+                        <div class="menu-text-contents">
+                            <h3 class="menu-name">
+                                <span class="menu-name-main">ブルーベリーチーズケーキ</span>
+                                <span class="menu-name-sub">- Blueberry cheesecake -</span>
+                            </h3>
+                            <p class="menu-text"># フランス産チーズをブレンド</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <div class="menu-img">
+                            <img src="./img/menu3.png" alt="">
+                        </div>
+                        <div class="menu-text-contents">
+                            <h3 class="menu-name">
+                                <span class="menu-name-main">チョコレートケーキ</span>
+                                <span class="menu-name-sub">- Chocolate cake -</span>
+                            </h3>
+                            <p class="menu-text"># ベルギー産チョコレート使用</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="shop">
+        <div class="shop-inner">
+            <h2 class="section-heading section-heading-l">
+                <span class="section-heading-main">Shop</span>
+                <span class="section-heading-sub">ー ショップ情報 ー</span>
+            </h2>
+            <div class="shop-contents">
+                <p class="shop-text">ただいま、オンラインストアを準備中です。<br />最新情報は以下より送信いただいた<br />メールアドレスへご案内いたします。</p>
+                <form action="" class="form">
+                    <input type="email" name="" id="" class="form-input" placeholder="sample@sample">
+                    <button type="submit" class="form-submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="./img/logo.svg" alt="">
+        </div>
+        <p class="footer-text">ー 各SNS更新中 ー</p>
+        <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">
+                    <img src="./img/icon-instagram.png" alt="" class="sns-img">
+                </a>
+                <p class="footer-nav-link-text">メニューご案内</p>
+            </li>
+            <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">
+                    <img src="./img/icon-youtube.png" alt="" class="sns-img">
+                </a>
+                <p class="footer-nav-link-text">制作のウラガワ</p>
+            </li>
+            <li class="footer-nav-item">
+                <a href="" class="footer-nav-link">
+                    <img src="./img/icon-twitter.png" alt="" class="sns-img">
+                </a>
+                <p class="footer-nav-link-text">お店の混雑状況</p>
+            </li>
+        </ul>
+        <div class="footer-copy-wrapper">
+            <small class="footer-copylight">&copy;2023 Sweet Delight.</small>
+        </div>
+    </footer>
+    <button id="back-to-top" class="back-to-top">TOP</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
